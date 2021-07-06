@@ -61,3 +61,38 @@ body {
     background-repeat: no-repeat;
     background-position: center left;
   }
+  .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .recipes {
+    width: 500px;
+    text-align: center;
+  }
+  .recipes p {
+    color: #828282;
+  }.card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .card-inner {
+    width: 26%;
+    margin: 0 2%;
+    padding: 2% 0;
+  }
+  .card-body {
+    box-shadow: -5px 5px 20px gray;
+    padding: 4%;
+    border-radius: 10px;
+    height: 450px;
+  }
+  .card-body img {
+    width: 100%;
+  }
+  .card-body p {
+    text-align: justify;
+    color: #828282;
+  }
+  

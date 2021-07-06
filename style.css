@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .extra{
+    background-color: palegreen;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .page {
+    width: 600px;
+  }
+  .hh {
+    font-size: 45px;
+    color: #ff0000;
+  }
+  .link-more {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, #f7b733, #fc4a1a);
+    border-radius: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }

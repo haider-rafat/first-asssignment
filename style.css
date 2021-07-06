@@ -56,3 +56,8 @@ body {
     text-align: justify;
     line-height: 1.5em;
   }
+  .about {
+    background-image: url("./image/Frame\ 57.jpg");
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
